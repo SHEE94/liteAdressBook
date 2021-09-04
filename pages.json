@@ -1,0 +1,52 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "简单点通讯录",
+			"navigationStyle": "custom",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/ContactPerson/ContactPerson",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom"
+		}
+
+	}, {
+		"path": "pages/detail/detail",
+		"style": {
+			"navigationBarTitleText": "联系人详情",
+			"enablePullDownRefresh": false
+		}
+
+	}    ,{
+            "path" : "pages/editAddressBook/editAddressBook",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "朴实无华的通讯录",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

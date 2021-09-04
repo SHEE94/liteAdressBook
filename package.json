@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "pinyin-engine": "^1.1.0"
+  }
+}
